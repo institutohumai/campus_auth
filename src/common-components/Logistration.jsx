@@ -117,7 +117,7 @@ const Logistration = (props) => {
               { key && (
                 <Redirect to={updatePathWithQueryParams(key)} />
               )}
-              <div id="main-content" className="main-content">
+              <div id="main-content" className="main-content" aria-checked='false'>
                 {selectedPage === LOGIN_PAGE
                   ? <LoginPage institutionLogin={institutionLogin} handleInstitutionLogin={handleInstitutionLogin} />
                   : (
