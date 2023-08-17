@@ -48,8 +48,19 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
   width: 12rem;
 }
 
+.text-login-info {
+  color: #1C1B1C;
+}
+
+.text-accent-orange {
+  color: #F59410;
+  border-color: #1C1B1C;
+}
+
 .login-button-width {
   min-width: 6rem;
+  background-color: #F59410;
+  border-color: #F59410;
 }
 
 .tpa-skeleton {

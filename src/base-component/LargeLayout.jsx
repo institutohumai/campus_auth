@@ -24,9 +24,15 @@ const LargeLayout = () => {
               { 'ml-6': getConfig().SITE_NAME !== 'edX' },
             )}
           >
+            {/* Texto de "Empieza a aprender"
             {formatMessage(messages['start.learning'])}
-            <div className="text-accent-a">
+             */}
+            <span className="text-login-info">Aprendé sobre Inteligencia Artificial</span> 
+            <div className="text-accent-orange">
+              {/* por el bien común en Latinoamérica.
+              Texto de "con Instituto Humai | Campus" en azul */}
               {formatMessage(messages['with.site.name'], { siteName: getConfig().SITE_NAME })}
+             
             </div>
           </h1>
         </div>

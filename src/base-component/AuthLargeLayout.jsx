@@ -32,7 +32,7 @@ const AuthLargeLayout = ({ username }) => {
         </div>
       </div>
       <div className="col-md-2 bg-white p-0">
-        <span>Test Auth Diagonal</span>
+        <h2>Test Auth Diagonal</h2>
       </div>
     </div>
   );
