@@ -21,6 +21,7 @@ import { LoginPage } from '../login';
 import { RegistrationPage } from '../register';
 import { backupRegistrationForm } from '../register/data/actions';
 import { clearThirdPartyAuthContextErrorMessage } from './data/actions';
+import { Hyperlink, Image } from '@edx/paragon';
 import {
   tpaProvidersSelector,
 } from './data/selectors';
