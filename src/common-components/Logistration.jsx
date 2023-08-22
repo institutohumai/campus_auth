@@ -104,8 +104,7 @@ const Logistration = (props) => {
           : (
             <div>
               <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
-                <Image className="logo" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
-                <h3 className="logo-humai position-absolute">Logo de Humai - Prueba posicionamiento</h3>
+                <Image className="logo-humai" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
               </Hyperlink>
               {institutionLogin
                 ? (
