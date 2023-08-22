@@ -48,8 +48,19 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
   width: 12rem;
 }
 
+// Auth
+.logo-humai {
+  width: 8rem;
+  align-self: center;
+  justify-self: center;
+}
+
 .text-login-info {
   color: #1C1B1C;
+}
+
+.humai-text-login-container {
+  width: clamp(25vw, 20rem, 60vw) !important;
 }
 
 .text-accent-orange {

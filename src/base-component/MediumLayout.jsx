@@ -18,7 +18,7 @@ const MediumLayout = () => {
           <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
             <Image alt={getConfig().SITE_NAME} className="logo" src={getConfig().LOGO_WHITE_URL} />
           </Hyperlink>
-          <div className="d-flex align-items-center justify-content-center mb-4 ">
+          <div className="d-flex align-items-center justify-content-center mb-4 humai-text-login-container">
             <div className={classNames({ 'mt-1 medium-yellow-line': getConfig().SITE_NAME === 'edX' })} />
             <div>
               <h1
@@ -27,7 +27,7 @@ const MediumLayout = () => {
                   { 'ml-4.5': getConfig().SITE_NAME !== 'edX' },
                 )}
               >
-                <span className="mr-2">{formatMessage(messages['start.learning'])}</span>
+                {/* <span className="mr-2">{formatMessage(messages['start.learning'])}</span> */}
                 <span className="text-login-info">Aprendé sobre Inteligencia Artificial</span> 
                 <span className="text-accent-a d-inline-block">
                   {formatMessage(messages['with.site.name'], { siteName: getConfig().SITE_NAME })}
