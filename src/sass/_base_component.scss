@@ -17,8 +17,9 @@
   @include media-breakpoint-up('xl') {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 50vw;
-    margin-top: 4rem;
+    // margin-top: 4rem;
   }
 }
 

@@ -103,6 +103,10 @@ const Logistration = (props) => {
           )
           : (
             <div>
+              <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
+                <Image className="logo" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
+                <h3 className="logo-humai position-absolute">Logo de Humai - Prueba posicionamiento</h3>
+              </Hyperlink>
               {institutionLogin
                 ? (
                   <Tabs defaultActiveKey="" id="controlled-tab" onSelect={handleInstitutionLogin}>
@@ -119,10 +123,6 @@ const Logistration = (props) => {
                 <Redirect to={updatePathWithQueryParams(key)} />
               )}
               <div id="main-content" className="main-content" aria-checked='false'>
-                <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
-                  <Image className="logo" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
-                  <h3 className="logo-humai position-absolute">Logo de Humai - Prueba posicionamiento</h3>
-                </Hyperlink>
                 {selectedPage === LOGIN_PAGE
                   ? <LoginPage institutionLogin={institutionLogin} handleInstitutionLogin={handleInstitutionLogin} />
                   : (

@@ -11,8 +11,8 @@ const SmallLayout = () => {
   const { formatMessage } = useIntl();
 
   return (
-    <span className="bg-primary-400 w-100">
-      <div className="col-md-12 small-screen-top-stripe" />
+    <span className="w-100">
+      {/* <div className="col-md-12 small-screen-top-stripe" /> */}
       <div>
         <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
           <Image className="logo-small" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
@@ -27,7 +27,7 @@ const SmallLayout = () => {
           >
             {/* <span className="mr-1">{formatMessage(messages['start.learning'])}</span> */}
             <span className="text-login-info">Aprendé sobre Inteligencia Artificial</span> 
-            <span className="text-accent-a d-inline-block">
+            <span className="text-accent-orange">
               {formatMessage(messages['with.site.name'], { siteName: getConfig().SITE_NAME })}
             </span>
           </h1>
