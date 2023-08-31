@@ -1,7 +1,11 @@
 
 .layout {
   display: flex;
-  background-color: #393a3c;
+  // background-color: #393a3c;
+  background-image: url('../sass/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover; /* or contain */
+  width: 100%;
 
   @include media-breakpoint-down('lg') {
     flex-direction: column;
