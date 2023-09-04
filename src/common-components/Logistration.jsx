@@ -26,6 +26,7 @@ import {
   tpaProvidersSelector,
 } from './data/selectors';
 import messages from './messages';
+import HumaiSvg from './HumaiSvg';
 
 const Logistration = (props) => {
   const { selectedPage, tpaProviders } = props;
@@ -105,6 +106,7 @@ const Logistration = (props) => {
             <div>
               <Hyperlink destination={getConfig().MARKETING_SITE_BASE_URL}>
                 <Image className="logo-humai" alt={getConfig().SITE_NAME} src={getConfig().LOGO_WHITE_URL} />
+                <HumaiSvg className="logo-humai" />
               </Hyperlink>
               {institutionLogin
                 ? (
