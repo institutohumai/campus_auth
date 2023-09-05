@@ -21,6 +21,8 @@ $apple-focus-black: $apple-black;
 
 $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
 $humai-color: #F4962D;
+$humai-color-active: #e48d2a;
+$humai-black: #1C1B1C;
 // Forgot Password Page
 .forgot-password-button-width {
   min-width: 6rem;
@@ -78,14 +80,26 @@ $humai-color: #F4962D;
 }
 
 // Registrarse e Iniciar sesión forms
-.navtabs .navlink.active, .navtabs .navlink:hover, .navtabs .navlink:active {
-  background-color: transparent;
+.navtabs a.navlink:hover {
+  background-color: rgba(56, 56, 56, 0.2);
 }
 
-.login-button-width {
+.navtabs a.navlink.active, .navtabs a.navlink:active {
+  background-color: transparent;
+  border-color: #0000 #0000 $humai-black;
+  color: $humai-black;
+}
+
+.login-button-width, .register-stateful-button-width {
   min-width: 6rem;
   background-color: $humai-color;
   border-color: $humai-color;
+}
+
+.login-button-width:hover, .login-button-width:active, .login-button-width.disabled,
+#register-user:hover, #register-user:active, #register-user.disabled{
+  background-color: $humai-color-active;
+  border-color: $humai-color-active;
 }
 
 .tpa-skeleton {
