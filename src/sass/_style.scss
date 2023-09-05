@@ -80,11 +80,11 @@ $humai-black: #1C1B1C;
 }
 
 // Registrarse e Iniciar sesión forms
-.navtabs a.navlink:hover {
+.nav-tabs a.nav-link:hover {
   background-color: rgba(56, 56, 56, 0.2);
 }
 
-.navtabs a.navlink.active, .navtabs a.navlink:active {
+.nav-tabs a.nav-link.active, .nav-tabs a.nav-link:active {
   background-color: transparent;
   border-color: #0000 #0000 $humai-black;
   color: $humai-black;
@@ -96,8 +96,8 @@ $humai-black: #1C1B1C;
   border-color: $humai-color;
 }
 
-.login-button-width:hover, .login-button-width:active, .login-button-width.disabled,
-#register-user:hover, #register-user:active, #register-user.disabled{
+.login-button-width:hover, .btn-brand.login-button-width:active, .btn-brand.login-button-width:focus, .login-button-width.disabled,
+#register-user:hover, #register-user:active, #register-user:focus, #register-user.disabled{
   background-color: $humai-color-active;
   border-color: $humai-color-active;
 }
