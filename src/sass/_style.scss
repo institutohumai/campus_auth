@@ -26,6 +26,8 @@ $humai-black: #1C1B1C;
 // Forgot Password Page
 .forgot-password-button-width {
   min-width: 6rem;
+  background-color: $humai-color;
+  border-color: $humai-color;
 }
 
 .centered-align-spinner {
@@ -99,7 +101,7 @@ $humai-black: #1C1B1C;
 .login-button-width:hover, .btn-brand:not(:disabled):not(.disabled).login-button-width:active, 
 .btn-brand.login-button-width:focus, .login-button-width.disabled,
 #register-user:hover, #register-user:active, #register-user:focus, #register-user.disabled,
-.forgot-password-button-width.btn-brand:hover, .forgot-password-button-width.btn-brand:active
+.forgot-password-button-width:hover, .forgot-password-button-width:active
 {
   background-color: $humai-color-active;
   border-color: $humai-color-active;
